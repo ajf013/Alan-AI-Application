@@ -2,7 +2,7 @@
 
 ### [Live Site]()
 
-![Voice Controlled React News Application](https://ibb.co/sRpnLdc)
+![Voice Controlled React News Application](https://i.ibb.co/kBVjYsz/Alan-AI-Application.png)
 
 ## Introduction
 This is a code repository for the corresponding Alan AI Application.
