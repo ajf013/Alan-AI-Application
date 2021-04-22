@@ -1,6 +1,6 @@
 # Voice Controlled React News Application - Alan AI Voice Assistant
 
-### [Live Site]()
+### [Live Site](https://alanaiapplication.web.app/)
 
 ![Voice Controlled React News Application](https://i.ibb.co/kBVjYsz/Alan-AI-Application.png)
 
