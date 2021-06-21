@@ -11,7 +11,7 @@ export default makeStyles((theme) => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    height: '120px',
+    height: '50px',
     [theme.breakpoints.down('sm')]: {
       display: 'none',
     },
@@ -21,15 +21,15 @@ export default makeStyles((theme) => ({
     color: 'rgba(21, 101, 192)',
   },
   image: {
-    marginLeft: 20,
+    marginLeft: 10,
   },
   card: {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
     width: '50%',
-    padding: '3%',
-    borderRadius: 10,
+    padding: '30%',
+    borderRadius: 20,
     color: 'white',
     backgroundColor: 'rgba(21, 101, 192)',
     margin: '0 12px',
@@ -41,7 +41,7 @@ export default makeStyles((theme) => ({
       width: '100%',
       height: 'initial',
       '&:nth-of-type(1)': {
-        marginBottom: '12px',
+        marginBottom: '10px',
       },
     },
   },

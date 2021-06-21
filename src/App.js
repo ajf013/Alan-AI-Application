@@ -59,10 +59,10 @@ const App = () => {
             <div className={classes.footer}>
               <Typography variant="body1" component="h2">
                 Created by
-                <a className={classes.link} href="https://www.linkedin.com/in/ajf013-francis-cruz/" rel="noreferrer" target="_blank"> Francis Cruz</a> - 
-                <a className={classes.link} href="http://franciscruz-portfolio.web.app/" rel="noreferrer" target="_blank"> AJF013</a>
+                <a className={classes.link} href="https://www.linkedin.com/in/ajf013-francis-cruz/" rel="noopenner noreferrer" target="_blank"> Francis Cruz</a> - 
+                <a className={classes.link} href="https://franciscruz.netlify.app/" rel="noopenner noreferrer" target="_blank"> AJF013</a>
               </Typography>
-              <img className={classes.image} src={logo} height="50px" alt="AJF logo" />
+              <img className={classes.image} src={logo} height="30px" alt="AJF logo" />
             </div>
           ) : null}
         </div>
