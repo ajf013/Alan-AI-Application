@@ -73,4 +73,30 @@ export default makeStyles((theme) => ({
       height: '35vmin',
     },
   },
+  themeContainer: {
+    minHeight: '100vh',
+    display: 'flex',
+    flexDirection: 'column',
+    transition: 'background 0.5s ease',
+  },
+  darkMode: {
+    backgroundImage: 'url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundAttachment: 'fixed',
+    color: '#fff',
+  },
+  lightMode: {
+    backgroundImage: 'url("https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80")', // Light abstract
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundAttachment: 'fixed',
+    color: '#000',
+  },
+  themeButton: {
+    position: 'absolute',
+    top: '20px',
+    right: '20px',
+    zIndex: 1000,
+  }
 }));

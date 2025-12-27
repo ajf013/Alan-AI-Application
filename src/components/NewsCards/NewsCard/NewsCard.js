@@ -22,8 +22,8 @@ const NewsCard = ({ article: { description, publishedAt, source, title, url, url
   }, [i, activeArticle, elRefs]);
 
   return (
-    <Card ref={elRefs[i]} className={ activeArticle === i ? classes.activeCard : classes.card}>
-      <CardActionArea href={url} target="_blank">
+    <Card ref={elRefs[i]} className={activeArticle === i ? classes.activeCard : classes.card} data-aos="fade-up">
+      <CardActionArea onClick={() => window.open(url, '_blank')}>
         <CardMedia className={classes.media} image={urlToImage || 'https://www.industry.gov.au/sites/default/files/August%202018/image/news-placeholder-738.png'} title={title} />
         <div className={classes.details}>
           <Typography variant="body2" color="textSecondary" component="h2">{(new Date(publishedAt)).toDateString()}</Typography>
@@ -35,7 +35,7 @@ const NewsCard = ({ article: { description, publishedAt, source, title, url, url
         </CardContent>
       </CardActionArea>
       <CardActions className={classes.cardActions}>
-        <Button size="small" color="primary" href={url}>Learn More</Button>
+        <Button size="small" color="primary" href={url} target="_blank">Learn More</Button>
         <Typography variant="h5" color="textSecondary" component="h2">{i + 1}</Typography>
       </CardActions>
     </Card>

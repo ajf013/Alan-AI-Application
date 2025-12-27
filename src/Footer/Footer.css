@@ -1,0 +1,94 @@
+.footer_content {
+    text-align: center;
+    color: rgb(240, 156, 0);
+    /* background-color: rgba(255, 166, 0, 0.91); */
+}
+
+.footer_main {
+    padding: 50px;
+    animation: slideUp 1s ease-out;
+}
+
+/* ... existing styles ... */
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.footer_Icons {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer_Icons span {
+    margin: 0 5px;
+}
+
+.footer_Icons .footer_git a {
+    color: #333;
+    /* Dark for visibility on light bg */
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.footer_Icons .footer_link a {
+    color: #0077b5;
+    /* LinkedIn Blue */
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.footer_Icons .footer_insta a {
+    color: rgb(255, 192, 203);
+    /* Lighter pink */
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.footer_Icons .footer_wht a {
+    color: rgb(144, 238, 144);
+    /* Light green */
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.footer_Icons .footer_twi a {
+    color: rgb(135, 206, 250);
+    /* Light blue */
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.footer_Icons .footer_git a:hover {
+    color: rgb(196, 191, 191);
+    transform: scale(1.2);
+}
+
+.footer_Icons .footer_link a:hover {
+    color: rgb(51, 39, 156);
+    transform: scale(1.2);
+}
+
+.footer_Icons .footer_insta a:hover {
+    color: rgb(198, 72, 202);
+    transform: scale(1.2);
+}
+
+.footer_Icons .footer_wht a:hover {
+    color: green;
+    transform: scale(1.2);
+}
+
+.footer_Icons .footer_twi a:hover {
+    color: lightblue;
+    transform: scale(1.2);
+}

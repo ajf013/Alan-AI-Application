@@ -1,10 +1,12 @@
-#root, html, body {
+#root,
+html,
+body {
     height: 100vh;
 }
 
 body {
     margin: 0;
-    background-color: whitesmoke;
+    /* Background is handled by App.js themes now */
 }
 
 * {
@@ -13,4 +15,9 @@ body {
 
 html {
     scroll-behavior: smooth;
+}
+
+/* Force Alan AI Button to be on top of everything */
+.alanBtn-root {
+    z-index: 10000 !important;
 }

@@ -1,13 +1,69 @@
-# Voice Controlled React News Application - Alan AI Voice Assistant
+# Alan AI News Application 🎙️📰
 
-### [Live Site](https://alanaiapplication.web.app/)
+A Conversational Voice Controlled React News Application using **Alan AI**. This app allows users to find news by categories, terms, and sources using voice commands.
 
-![Voice Controlled React News Application](https://i.ibb.co/kBVjYsz/Alan-AI-Application.png)
+### Light Mode
+![Light Mode](screenshots/light_mode.png)
 
-## Introduction
-This is a code repository for the corresponding Alan AI Application.
+### Dark Mode
+![Dark Mode](screenshots/dark_mode.png)
 
-We're going to build a Conversational Voice Controlled React News Application using Alan AI. Alan AI is a revolutionary speech recognition software that allows you to add voice capabilities to your applications. It allows you to control absolutely everything in the app using your voice. Another huge benefit is that it's extremely easy to integrate it. We'll do it together in this video and afterward, you'll be able to create your own voice-controlled apps.  
+## 🌟 Features
 
-Setup:
-- run ```npm i && npm start``` to start development server
+## 🛠️ Technology Stack
+
+*   **React JS**: Frontend framework.
+*   **Alan AI**: Voice AI integration sdk.
+*   **Material UI**: Styling and components.
+*   **NewsAPI.org**: Source for news data.
+*   **AOS (Animate On Scroll)**: Scroll animations.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+*   Node.js (v14 or higher)
+*   npm or yarn
+*   Alan AI Studio Key
+
+### Installation
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/your-username/Alan-AI-Application.git
+    cd Alan-AI-Application
+    ```
+
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Setup Environment Variables**
+    Create a `.env` file in the root directory and add your Alan AI Key:
+    ```env
+    REACT_APP_ALAN_KEY=your_alan_ai_key_here
+    ```
+
+4.  **Run the application**
+    ```bash
+    npm start
+    ```
+    Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## 🗣️ Voice Commands to Try
+
+*   *"Give me the latest news"*
+*   *"Open article number [4]"*
+*   *"Go back"*
+*   *"What is this app?"*
+*   *"Make it dark/light"* (if configured in Alan Studio script)
+
+## 🚢 Deployment
+
+This app is ready to be deployed on **Netlify** or **Vercel**.
+See `netlify_deployment.md` for specific Netlify instructions.
+
+## 👤 Author
+
+**Francis Cruz**

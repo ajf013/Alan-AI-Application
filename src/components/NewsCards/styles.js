@@ -9,13 +9,13 @@ export default makeStyles({
     width: '100%',
     height: '70vh',
     padding: '10%',
-    borderRadius:15,
+    borderRadius: 15,
     color: 'white',
   },
   infoCard: {
     display: 'flex', flexDirection: 'column', textAlign: 'center',
   },
   container: {
-    padding: '5%', width: '100%', margin: 0,
+    padding: '0 5%', width: '100%', margin: 0,
   },
 });
