@@ -11,6 +11,10 @@ export default makeStyles({
     padding: '10%',
     borderRadius: 15,
     color: 'white',
+    transition: 'transform 0.2s',
+    '&:hover': {
+      transform: 'scale(1.05)',
+    },
   },
   infoCard: {
     display: 'flex', flexDirection: 'column', textAlign: 'center',

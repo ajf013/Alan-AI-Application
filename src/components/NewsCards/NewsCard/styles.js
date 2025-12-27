@@ -15,6 +15,10 @@ export default makeStyles({
     flexDirection: 'column',
     justifyContent: 'space-between',
     borderBottom: '10px solid white',
+    transition: 'transform 0.2s',
+    '&:hover': {
+      transform: 'scale(1.05)',
+    },
   },
   activeCard: {
     borderBottom: '10px solid #22289a',
